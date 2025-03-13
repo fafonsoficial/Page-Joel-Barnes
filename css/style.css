@@ -1,0 +1,27 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'font-principal';
+    src: url(/font/font-principal.ttf);
+}
+
+@font-face {
+    font-family: 'font-logo';
+    src: url(/font/font-logo.otf);
+}
+
+:root {
+    --color-background-page: #000;
+    --color-text-page: #fff;
+    --color-span: ;
+
+    --font-logo: 'font-logo';
+    --font-h1: 'font-principal';
+    --font-h2: 'Poppins' sans-serif; 
+}
