@@ -112,6 +112,7 @@ main
 
 .navbar 
 {
+    background-color: var(--color-background-page);
     padding: 20px 0;
 }
 
@@ -130,10 +131,55 @@ main
     font-weight: 800;
 }
 
-.nav-link 
+.navbar .nav-link 
 {
-    position: relative;
-    color: red;
     font-family: var(--font-nav-link);
+    color: #5F423A;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+    padding-bottom: 5px;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link::after 
+{
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #5F423A;
+    transition: width 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover::after 
+{
+    width: 100%;
+}
+
+.navbar .nav-link:hover 
+{
+    color: #977065;
+}
+
+/* Edição da página sobre */
+h2 
+{
+    font-family: var(--font-logo);
+    font-size: 5em;
+    font-weight: 700;
+}
+
+p 
+{
+    text-align: justify;
+}
+
+h3 
+{
+
 }
 
