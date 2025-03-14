@@ -76,18 +76,21 @@ main
 
 .pagina-inicial .redes-sociais #twitter:hover 
 {
+    color: #1DA1F2;
     transition: .3s ease-out;
     transform: scale(1.05);
 }
 
 .pagina-inicial .redes-sociais #facebook:hover 
 {
+    color: #1877F2;
     transition: .3s ease-out;
     transform: scale(1.05);
 }
 
 .pagina-inicial .redes-sociais #instagram:hover 
 {
+    color: #dd316a;
     transition: .3s ease-out;
     transform: scale(1.05);
 }
@@ -109,13 +112,11 @@ main
     border-radius: 1px;
 }
 
-
 .navbar 
 {
     background-color: var(--color-background-page);
     padding: 20px 0;
 }
-
 
 .navbar-brand
 {
@@ -178,8 +179,154 @@ p
     text-align: justify;
 }
 
-h3 
+h3,
+h5 
 {
-
+    font-family: var(--font-h2);
 }
+
+
+/* Estilização da página de albuns*/
+.card 
+{
+    background-color: black;
+    color: white;
+    transition: .3s ease-out;
+}
+
+.card:hover 
+{
+    transform: scale(1.05)
+}
+
+.btn-play-spotify 
+{
+    text-decoration: none;
+    color: white;
+    background-color: #1DB954;
+    border: none;
+    padding: 10px;
+    transition: .3s ease-out;
+}
+
+.btn-play-spotify:hover 
+{
+    background-color: #1DB954;
+    border: none;
+}
+
+.btn-play-music 
+{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #FA243C;
+    color: white;
+    transition: .3s ease-out;
+}
+
+.btn-play-music:hover ~
+{
+    background-color: #FA243C;
+    border: none;
+}
+
+
+.btn-paly-youtube 
+{
+    text-decoration: none;
+    border: none;
+    background-color: #FF0000;
+    padding: 10px;
+    color: white;
+    transition: .3s ease-out;
+}
+
+.btn-paly-youtube:hover 
+{
+    background-color: #FF0000;
+    border: none;
+}
+
+/* Estilização da Página Tour */
+table 
+{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: black;
+    color: white;
+    text-align: left;
+    border-radius: 8px;
+    overflow: hidden;
+    overflow-x: auto;
+    border-collapse: collapse;
+}
+
+th,
+td 
+{
+    padding: 12px;
+    border-bottom: 1px solid #5F423A;
+}
+
+th 
+{
+    background-color: #5F423A;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) 
+{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+tr:hover 
+{
+    background-color: #5F423A;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn-comprar 
+{
+    padding: 10px;
+    border: none;
+    background-color: #5F423A;
+    color: white;
+    font-weight: 600;
+}
+
+/*Estilização da página de Contacto */
+.contact-form 
+{
+    color: white;
+    padding: 40px;
+}
+
+.btn-contacto 
+{
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    background-color: #5F423A;
+    color: white;
+    font-weight: 600;
+    transition: .2s ease-out;
+}
+
+.btn-contacto:hover 
+{
+    background-color: #855e53;
+}
+
+/* Estilização Geral Do Footer */
+.footer 
+{
+    position: relative;
+    overflow: hidden;
+}
+
 
