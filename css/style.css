@@ -27,10 +27,60 @@
     --font-body: "Open Sans", sans-seri;
 }
 
+main {
+    padding: 70px 0;
+}
+
 .pagina-inicial {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
+
+.pagina-inicial h1 {
+    font-family: var(--font-h1);
+    font-size: 10em;
+    font-weight: 900;
+}
+
+.pagina-inicial p {
+    font-family: var();
+    font-size: 1rem;
+}
+
+.pagina-inicial .redes-sociais {
+    align-items: center;
+    font-size: 2rem;
+}
+
+.pagina-inicial .redes-sociais a {
+    text-decoration: none;
+    color: var(--color-background-page);
+}
+
+.pagina-inicial .redes-sociais #twitter:hover {
+    transition: .3s ease-out;
+    transform: scale(1.05);
+}
+
+.pagina-inicial .redes-sociais #facebook:hover {
+    transition: .3s ease-out;
+    transform: scale(1.05);
+}
+
+.pagina-inicial .redes-sociais #instagram:hover {
+    transition: .3s ease-out;
+    transform: scale(1.05);
+}
+
+.btn {
+    background-color: var(--color-background-page);
+    padding: 10px 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border: none;
+}
+
+
 
