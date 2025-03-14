@@ -186,6 +186,37 @@ h5
 }
 
 
+.sobre .redes-sociais 
+{
+    font-size: 2rem;
+}
+
+.sobre .redes-sociais a 
+{
+    color: var(--color-text-page);
+}
+
+.sobre .redes-sociais #spotify:hover 
+{
+    color: #1DB954;
+    transition: .3s ease-out;
+    transform: scale(1.2);
+}
+
+.sobre .redes-sociais #apple-music:hover 
+{
+    color: #FA243C;
+    transition: .3s ease-out;
+    transform: scale(1.2);
+}
+
+.sobre .redes-sociais #youtube:hover 
+{
+    color: #FF0000;
+    transition: .3s ease-out;
+    transform: scale(1.2);
+}
+
 /* Estilização da página de albuns*/
 .card 
 {
