@@ -272,7 +272,7 @@ h5
     border: none;
 }
 
-.btn-paly-youtube 
+.btn-play-youtube 
 {
     text-decoration: none;
     border: none;
@@ -282,7 +282,7 @@ h5
     transition: .3s ease-out;
 }
 
-.btn-paly-youtube:hover 
+.btn-play-youtube:hover 
 {
     background-color: #FF0000;
     border: none;
@@ -368,6 +368,8 @@ tr:hover
 {
     position: relative;
     overflow: hidden;
+    background-color: var(--color-background-page);
+    color: var(--color-text-page);
 }
 
 
