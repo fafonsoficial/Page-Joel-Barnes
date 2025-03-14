@@ -28,6 +28,17 @@
     --font-h1: 'font-principal';
     --font-h2: "Poppins", sans-serif; 
     --font-nav-link: "Open Sans", sans-seri;
+
+    --color-twitter: #1DA1F2;
+    --color-facebook: #1877F2;
+    --color-instagram: #dd316a;
+    --color-spotify: #1DB954;
+    --color-apple-music: #FA243C;
+    --color-youtube: #FF0000;
+
+    --btn-play-spotify: #1DB954;
+    --btn-play-music: #FA243C;
+    --btn-paly-youtube: #FF0000;
 }
 
 body 
@@ -76,21 +87,21 @@ main
 
 .pagina-inicial .redes-sociais #twitter:hover 
 {
-    color: #1DA1F2;
+    color: var(--color-twitter);
     transition: .3s ease-out;
     transform: scale(1.05);
 }
 
 .pagina-inicial .redes-sociais #facebook:hover 
 {
-    color: #1877F2;
+    color: var(--color-facebook);
     transition: .3s ease-out;
     transform: scale(1.05);
 }
 
 .pagina-inicial .redes-sociais #instagram:hover 
 {
-    color: #dd316a;
+    color: var(--color-instagram);
     transition: .3s ease-out;
     transform: scale(1.05);
 }
@@ -198,21 +209,21 @@ h5
 
 .sobre .redes-sociais #spotify:hover 
 {
-    color: #1DB954;
+    color: var(--color-spotify);
     transition: .3s ease-out;
     transform: scale(1.2);
 }
 
 .sobre .redes-sociais #apple-music:hover 
 {
-    color: #FA243C;
+    color: var(--color-apple-music);
     transition: .3s ease-out;
     transform: scale(1.2);
 }
 
 .sobre .redes-sociais #youtube:hover 
 {
-    color: #FF0000;
+    color: var(--color-youtube);
     transition: .3s ease-out;
     transform: scale(1.2);
 }
@@ -220,8 +231,8 @@ h5
 /* Estilização da página de albuns*/
 .card 
 {
-    background-color: black;
-    color: white;
+    background-color: var(--color-background-page);
+    color: var(--color-text-page);
     transition: .3s ease-out;
 }
 
@@ -233,8 +244,8 @@ h5
 .btn-play-spotify 
 {
     text-decoration: none;
-    color: white;
-    background-color: #1DB954;
+    color: var(--color-text-page);
+    background-color: var(--btn-play-spotify);
     border: none;
     padding: 10px;
     transition: .3s ease-out;
@@ -250,8 +261,8 @@ h5
 {
     text-decoration: none;
     padding: 10px;
-    background-color: #FA243C;
-    color: white;
+    background-color: var(--btn-play-music);
+    color: var(--color-text-page);
     transition: .3s ease-out;
 }
 
@@ -261,12 +272,11 @@ h5
     border: none;
 }
 
-
 .btn-paly-youtube 
 {
     text-decoration: none;
     border: none;
-    background-color: #FF0000;
+    background-color: var(--btn-paly-youtube);
     padding: 10px;
     color: white;
     transition: .3s ease-out;
@@ -285,8 +295,8 @@ table
     max-width: 800px;
     margin: auto;
     border-collapse: collapse;
-    background-color: black;
-    color: white;
+    background-color: var(--color-background-page);
+    color: var(--color-text-page);
     text-align: left;
     border-radius: 8px;
     overflow: hidden;
@@ -304,7 +314,7 @@ td
 th 
 {
     background-color: #5F423A;
-    color: white;
+    color: var(--color-text-page);
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -317,7 +327,7 @@ tr:nth-child(even)
 tr:hover 
 {
     background-color: #5F423A;
-    color: white;
+    color: var(--color-text-page);
     transition: 0.3s;
 }
 
@@ -326,14 +336,14 @@ tr:hover
     padding: 10px;
     border: none;
     background-color: #5F423A;
-    color: white;
+    color: var(--color-text-page);
     font-weight: 600;
 }
 
 /*Estilização da página de Contacto */
 .contact-form 
 {
-    color: white;
+    color: var(--color-text-page);
     padding: 40px;
 }
 
@@ -343,7 +353,7 @@ tr:hover
     border-radius: 2px;
     padding: 5px;
     background-color: #5F423A;
-    color: white;
+    color: var(--color-text-page);
     font-weight: 600;
     transition: .2s ease-out;
 }
