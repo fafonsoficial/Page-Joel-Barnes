@@ -6,17 +6,20 @@
     box-sizing: border-box;
 }
 
-@font-face {
+@font-face 
+{
     font-family: 'font-principal';
     src: url(/font/font-principal.ttf);
 }
 
-@font-face {
+@font-face 
+{
     font-family: 'font-logo';
     src: url(/font/font-logo.otf);
 }
 
-:root {
+:root 
+{
     --color-background-page: #000;
     --color-text-page: #fff;
     --color-span: ;
@@ -24,62 +27,73 @@
     --font-logo: 'font-logo';
     --font-h1: 'font-principal';
     --font-h2: "Poppins", sans-serif; 
-    --font-body: "Open Sans", sans-seri;
+    --font-nav-link: "Open Sans", sans-seri;
 }
 
-body {
+body 
+{
     background-color: var(--color-background-page);
     color: var(--color-text-page);
 }
 
-main {
+main 
+{
     padding: 70px 0;
 }
 
-.pagina-inicial {
+.pagina-inicial 
+{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-.pagina-inicial h1 {
+.pagina-inicial h1 
+{
     font-family: var(--font-h1);
     font-size: 10em;
     font-weight: 900;
 }
 
-.pagina-inicial p {
+.pagina-inicial p 
+{
     font-family: var();
     font-size: 1rem;
 }
 
-.pagina-inicial .redes-sociais {
+.pagina-inicial .redes-sociais 
+{
     align-items: center;
     font-size: 2rem;
 }
 
-.pagina-inicial .redes-sociais a {
+.pagina-inicial .redes-sociais a 
+{
     text-decoration: none;
     color: var(--color-text-page);
 }
 
-.pagina-inicial .redes-sociais #twitter:hover {
+.pagina-inicial .redes-sociais #twitter:hover 
+{
     transition: .3s ease-out;
     transform: scale(1.05);
 }
 
-.pagina-inicial .redes-sociais #facebook:hover {
+.pagina-inicial .redes-sociais #facebook:hover 
+{
     transition: .3s ease-out;
     transform: scale(1.05);
 }
 
-.pagina-inicial .redes-sociais #instagram:hover {
+.pagina-inicial .redes-sociais #instagram:hover 
+{
     transition: .3s ease-out;
     transform: scale(1.05);
 }
 
-.btn {
+.btn 
+{
     background-color: var(--color-text-page);
     color: var(--color-background-page);
     padding: 10px 40px;
@@ -88,11 +102,38 @@ main {
     border: none;
 }
 
-.btn:hover {
+.btn:hover 
+{
     background-color: transparent;
     border: 1px solid var(--color-text-page);
     border-radius: 1px;
 }
 
 
+.navbar 
+{
+    padding: 20px 0;
+}
+
+
+.navbar-brand
+{
+    color: var(--color-text-page);
+    font-family: var(--font-logo);
+    font-weight: 800;
+}
+
+.offcanvas-title 
+{
+    color: var(--color-background-page);
+    font-family: var(--font-logo);
+    font-weight: 800;
+}
+
+.nav-link 
+{
+    position: relative;
+    color: red;
+    font-family: var(--font-nav-link);
+}
 
